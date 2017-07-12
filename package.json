@@ -1,0 +1,38 @@
+{
+  "name": "react-preact-webpack3-boilerplate",
+  "version": "1.0.0",
+  "description": "React/Preact app with Webpack 3",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline",
+    "build": "NODE_ENV=production webpack"
+  },
+  "keywords": [
+    "preact",
+    "react",
+    "boilerplate",
+    "webpack"
+  ],
+  "author": "Nauzet Hernandez <nauzethc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^8.2.1",
+    "preact-compat": "^3.16.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
